@@ -1,14 +1,6 @@
-* {
-  background-color: rgb(112, 216, 216);
-}
-
 .debug {
   * {
     border-style: solid;
-  }
-
-  header {
-    background-color: blueviolet;
   }
 }
 
@@ -19,14 +11,34 @@
   box-sizing: border-box;
 }
 
+:root {
+  --neutral-col: #ffffff;
+  --light-col: b4d0e6;
+  --button-col: #0061fe;
+  --dark-col: black;
+}
+
 .container {
   width: 80%;
   max-width: 1200px;
   margin: auto;
 }
 
+/* non mi fa impazzine ma lo aggiustiamo dopo  */
+.button {
+  background-color: var(--button-col);
+  padding: 5px 10px;
+}
+
+/* #region header*/
+
+header {
+  background-color: var(--neutral-col);
+}
+
 .navbar {
   display: flex;
+  align-items: center;
 }
 
 .nav1 {
