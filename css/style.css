@@ -11,7 +11,7 @@
   }
 }
 
-/* #common region */
+/* #region common */
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +48,7 @@ img {
   height: 100%;
   object-fit: contain;
 }
+/* #endregion common  */
 
 /* #region header*/
 
@@ -85,9 +86,17 @@ ul {
   padding: 10px;
 }
 
-/* #region main */
+/* #endregion header */
 
-/* jumbotron */
+/* main */
+
+/* #region jumbotron */
+
+h1 {
+  padding: 1%;
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
 
 .hero {
   background-color: var(--light-col);
@@ -113,15 +122,20 @@ ul {
   padding: 1%;
 }
 
+/* #endregion jumbotron  */
+
+hr {
+  padding: 26px;
+}
+
 /* 1 sezione di infobox  */
 /* colonne che devono prendere 4/12 + 1 da 12/12  */
 
-h1 {
-  padding: 1%;
-  font-size: 5rem;
-  margin-bottom: 10px;
-}
+/* #region businnes  */
 
+h2 {
+  font-size: 2rem;
+}
 .row {
   margin-top: 50px;
   flex-wrap: wrap;
@@ -158,6 +172,8 @@ h1 {
     padding-top: 2%;
   }
 }
+/* #endregion business */
+
 /* aggiustare dopo aver impostato il footer */
 .col6 {
   width: 33%;
