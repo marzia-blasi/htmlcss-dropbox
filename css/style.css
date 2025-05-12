@@ -94,6 +94,7 @@ ul {
 
 .col4 {
   width: calc(100% / 12 * 4);
+  max-width: 300px;
 }
 
 .col12 {
@@ -107,6 +108,7 @@ ul {
 }
 
 .bodycard {
+  padding: 3%;
   hr {
     width: 40px;
   }
