@@ -135,10 +135,15 @@ hr {
 
 h2 {
   font-size: 2rem;
+  margin: 50px auto;
 }
 .row {
   margin-top: 50px;
   flex-wrap: wrap;
+}
+
+.businnes {
+  gap: 12%;
 }
 
 .col4 {
@@ -152,14 +157,21 @@ h2 {
 
 /* aspetti estetici prima serie di card */
 
+.singolo {
+  border-style: outset;
+}
+
 .headercard {
   justify-content: center;
+  border-bottom-style: outset;
+  padding: 6%;
 }
 
 .bodycard {
   padding: 3%;
 
   hr {
+    padding: 0;
     width: 40px;
   }
 
@@ -169,7 +181,7 @@ h2 {
   }
 
   .bodycardtop {
-    padding-top: 2%;
+    margin: 13% 0;
   }
 }
 /* #endregion business */
