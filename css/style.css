@@ -4,10 +4,6 @@
     border-color: rgba(76, 74, 103, 0.211);
   }
 
-  .hero {
-    background-color: aqua;
-  }
-
   /* altezza da ridefinire  */
   .assets {
     height: 200px;
@@ -20,6 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -91,17 +88,39 @@ ul {
 /* #region main */
 
 /* jumbotron */
+
+.hero {
+  background-color: var(--light-col);
+  .button {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    padding: 12px 15px;
+  }
+
+  i {
+    margin-top: 26px;
+    position: relative;
+    top: 140px;
+  }
+}
+
 .col60 {
   width: 60%;
 }
 
 .col40 {
   width: 40%;
-  flex-direction: column;
+  padding: 1%;
 }
 
 /* 1 sezione di infobox  */
 /* colonne che devono prendere 4/12 + 1 da 12/12  */
+
+h1 {
+  padding: 1%;
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
 
 .row {
   margin-top: 50px;
