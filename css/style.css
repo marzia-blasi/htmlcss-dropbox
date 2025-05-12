@@ -43,6 +43,7 @@
   background-color: var(--button-col);
   padding: 5px 10px;
   display: inline-block;
+  color: var(--neutral-col);
 }
 
 img {
@@ -54,6 +55,8 @@ img {
 /* #region header*/
 
 header {
+  padding: 1%;
+  margin-top: 12px;
   background-color: var(--neutral-col);
 }
 
@@ -63,6 +66,10 @@ ul {
 
 .navbar {
   align-items: center;
+
+  .logo {
+    padding: 10px;
+  }
 }
 
 .navbar a {
@@ -71,6 +78,14 @@ ul {
 
 .nav1 {
   flex-grow: 2;
+
+  li {
+    padding: 10px;
+  }
+}
+
+.nav2 {
+  padding: 10px;
 }
 
 /* #region main */
@@ -89,6 +104,7 @@ ul {
 /* colonne che devono prendere 4/12 + 1 da 12/12  */
 
 .row {
+  margin-top: 50px;
   flex-wrap: wrap;
 }
 
@@ -109,6 +125,7 @@ ul {
 
 .bodycard {
   padding: 3%;
+
   hr {
     width: 40px;
   }
@@ -116,6 +133,10 @@ ul {
   /* fare variabile di colore  */
   .grey {
     color: grey;
+  }
+
+  .bodycardtop {
+    padding-top: 2%;
   }
 }
 /* aggiustare dopo aver impostato il footer */
