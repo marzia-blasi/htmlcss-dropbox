@@ -7,6 +7,12 @@
   .hero {
     background-color: aqua;
   }
+
+  /* altezza da ridefinire  */
+  .assets {
+    height: 200px;
+    width: fit-content;
+  }
 }
 
 /* #common region */
@@ -58,15 +64,16 @@ ul {
 .navbar {
   align-items: center;
 }
+
+.navbar a {
+  text-decoration: none;
+}
+
 .nav1 {
   flex-grow: 2;
 }
 
 /* link non sottolineati da capire se fare 2 regole, oopure usare tipo style nell'html */
-
-a {
-  text-decoration: none;
-}
 
 /* #region main */
 
@@ -95,6 +102,11 @@ a {
   width: 100%;
 }
 
+/* aggiustare dopo aver impostato il footer */
 .col6 {
-  width: 50%;
+  width: 33%;
+}
+
+.col5 {
+  flex-grow: 1;
 }
