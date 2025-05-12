@@ -1,7 +1,7 @@
 .debug {
   * {
     border-style: solid;
-    border-color: rgb(76, 74, 103);
+    border-color: rgba(76, 74, 103, 0.211);
   }
 
   .hero {
@@ -39,10 +39,10 @@
   display: flex;
 }
 
-/* non mi fa impazzine ma lo aggiustiamo dopo  */
 .button {
   background-color: var(--button-col);
   padding: 5px 10px;
+  display: inline-block;
 }
 
 img {
@@ -73,8 +73,6 @@ ul {
   flex-grow: 2;
 }
 
-/* link non sottolineati da capire se fare 2 regole, oopure usare tipo style nell'html */
-
 /* #region main */
 
 /* jumbotron */
@@ -102,6 +100,22 @@ ul {
   width: 100%;
 }
 
+/* aspetti estetici prima serie di card */
+
+.headercard {
+  justify-content: center;
+}
+
+.bodycard {
+  hr {
+    width: 40px;
+  }
+
+  /* fare variabile di colore  */
+  .grey {
+    color: grey;
+  }
+}
 /* aggiustare dopo aver impostato il footer */
 .col6 {
   width: 33%;
